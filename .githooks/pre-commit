@@ -12,3 +12,9 @@ if [ -z "$files" ]; then
     echo "No Python files found. Skipping Bandit scan."
     exit 0
 fi
+
+# Run bandit and export to CSV
+echo "Files to scan: $files"
+bandit -f csv -o bandit_report.csv $files
+
+echo "Scan complete. Details saved to bandit_report.csv"
