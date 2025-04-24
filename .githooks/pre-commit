@@ -1,3 +1,8 @@
 #!/bin/bash
 
 # Hook script to run Bandit on all Python files and save results to specified CSV
+
+echo "Running security scan with Bandit..."
+
+# Get all staged .py files
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
