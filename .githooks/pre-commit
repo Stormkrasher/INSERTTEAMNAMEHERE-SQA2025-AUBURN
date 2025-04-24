@@ -1,0 +1,3 @@
+#!/bin/bash
+
+# Hook script to run Bandit on all Python files and save results to specified CSV
