@@ -6,3 +6,9 @@ echo "Running security scan with Bandit..."
 
 # Get all staged .py files
 files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+
+# Exit early if unable to stage .py files
+if [ -z "$files" ]; then
+    echo "No Python files found. Skipping Bandit scan."
+    exit 0
+fi
