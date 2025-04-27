@@ -1,0 +1,33 @@
+name: Run fuzz.py Every Few Hours
+
+on:
+  schedule:
+    - cron: '0 */4 * * *' # Should run every 4hrs
+  workflow_dispatch:      # Should allow for optional, manual trigger from Github UI
+
+jobs:
+  fuzz:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt || true
+
+    - name: Run fuzz.py
+      run: |
+        python fuzz.py
+
+    - name: Upload fuzz log
+      uses: actions/upload-artifact@v4
+      with:
+        name: fuzz-logs
+        path: fuzz_log.txt
