@@ -10,8 +10,6 @@ Lessons Learned: <br/>
 Activities: <br/>
 - Initially went on a learning path trying to understand the pre-commit python package and how to set that up for our repository hook
 - Working with different software like Vault and bandit to learn more about scrubbing secrets
-- Developed a fuzz.py script that fuzzes five selected Python methods
 - Randomized input was injected automatically to test for unexpected crashes
-- forensics-style logging to five selected methods across the project
   
 
