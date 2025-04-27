@@ -13,5 +13,5 @@ Activities: <br/>
 - Developed a fuzz.py script that fuzzes five selected Python methods
 - Randomized input was injected automatically to test for unexpected crashes
 - forensics-style logging to five selected methods across the project
-- 
+  
 
