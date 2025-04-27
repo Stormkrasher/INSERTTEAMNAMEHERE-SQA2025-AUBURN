@@ -1,0 +1,145 @@
+2025-04-26 23:51:29,877 - INFO - === Starting fuzzing for isValidUserMame ===
+2025-04-26 23:51:29,877 - INFO - Test 0: Input=None Output=False
+2025-04-26 23:51:29,877 - INFO - Test 1: Input='' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 2: Input='    ' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 3: Input='admin' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 4: Input='password123' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 5: Input='api_key' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 6: Input='!!invalid!!' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 7: Input='super$ecret' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 8: Input='root' Output=True
+2025-04-26 23:51:29,877 - INFO - Test 9: Input=123 Output=False
+2025-04-26 23:51:29,877 - INFO - Test 10: Input=123.45 Output=False
+2025-04-26 23:51:29,877 - INFO - Test 11: Input=nan Output=False
+2025-04-26 23:51:29,877 - INFO - Test 12: Input=inf Output=False
+2025-04-26 23:51:29,877 - INFO - Test 13: Input=[] Output=False
+2025-04-26 23:51:29,877 - INFO - Test 14: Input={} Output=False
+2025-04-26 23:51:29,877 - INFO - Test 15: Input=set() Output=False
+2025-04-26 23:51:29,877 - INFO - Test 16: Input={'key': 'value'} Output=False
+2025-04-26 23:51:29,877 - INFO - Test 17: Input=[1, 2, 3] Output=False
+2025-04-26 23:51:29,877 - INFO - Test 18: Input=(1, 2, 3) Output=False
+2025-04-26 23:51:29,877 - INFO - Test 19: Input={1, 2, 3} Output=False
+2025-04-26 23:51:29,877 - INFO - Test 20: Input=<function <lambda> at 0x0000022EB0E98FE0> Output=False
+2025-04-26 23:51:29,877 - INFO - Test 21: Input=b'binary' Output=False
+2025-04-26 23:51:29,877 - INFO - Test 22: Input=b'bytes' Output=False
+2025-04-26 23:51:29,877 - INFO - Test 23: Input=True Output=False
+2025-04-26 23:51:29,877 - INFO - Test 24: Input=False Output=False
+2025-04-26 23:51:29,877 - INFO - Test 25: Input=<object object at 0x0000022ED3B14260> Output=False
+2025-04-26 23:51:29,878 - INFO - === Finished fuzzing for isValidUserMame ===
+
+2025-04-26 23:51:29,878 - INFO - === Starting fuzzing for isValidPasswordName ===
+2025-04-26 23:51:29,878 - INFO - Test 0: Input=None Output=False
+2025-04-26 23:51:29,878 - INFO - Test 1: Input='' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 2: Input='    ' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 3: Input='admin' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 4: Input='password123' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 5: Input='api_key' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 6: Input='!!invalid!!' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 7: Input='super$ecret' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 8: Input='root' Output=True
+2025-04-26 23:51:29,878 - INFO - Test 9: Input=123 Output=False
+2025-04-26 23:51:29,878 - INFO - Test 10: Input=123.45 Output=False
+2025-04-26 23:51:29,878 - INFO - Test 11: Input=nan Output=False
+2025-04-26 23:51:29,878 - INFO - Test 12: Input=inf Output=False
+2025-04-26 23:51:29,878 - INFO - Test 13: Input=[] Output=False
+2025-04-26 23:51:29,878 - INFO - Test 14: Input={} Output=False
+2025-04-26 23:51:29,878 - INFO - Test 15: Input=set() Output=False
+2025-04-26 23:51:29,878 - INFO - Test 16: Input={'key': 'value'} Output=False
+2025-04-26 23:51:29,878 - INFO - Test 17: Input=[1, 2, 3] Output=False
+2025-04-26 23:51:29,878 - INFO - Test 18: Input=(1, 2, 3) Output=False
+2025-04-26 23:51:29,878 - INFO - Test 19: Input={1, 2, 3} Output=False
+2025-04-26 23:51:29,878 - INFO - Test 20: Input=<function <lambda> at 0x0000022EB0E98FE0> Output=False
+2025-04-26 23:51:29,878 - INFO - Test 21: Input=b'binary' Output=False
+2025-04-26 23:51:29,878 - INFO - Test 22: Input=b'bytes' Output=False
+2025-04-26 23:51:29,878 - INFO - Test 23: Input=True Output=False
+2025-04-26 23:51:29,879 - INFO - Test 24: Input=False Output=False
+2025-04-26 23:51:29,879 - INFO - Test 25: Input=<object object at 0x0000022ED3B14260> Output=False
+2025-04-26 23:51:29,879 - INFO - === Finished fuzzing for isValidPasswordName ===
+
+2025-04-26 23:51:29,879 - INFO - === Starting fuzzing for isValidKey ===
+2025-04-26 23:51:29,879 - INFO - Test 0: Input=None Output=False
+2025-04-26 23:51:29,879 - INFO - Test 1: Input='' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 2: Input='    ' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 3: Input='admin' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 4: Input='password123' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 5: Input='api_key' Output=True
+2025-04-26 23:51:29,879 - INFO - Test 6: Input='!!invalid!!' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 7: Input='super$ecret' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 8: Input='root' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 9: Input=123 Output=False
+2025-04-26 23:51:29,879 - INFO - Test 10: Input=123.45 Output=False
+2025-04-26 23:51:29,879 - INFO - Test 11: Input=nan Output=False
+2025-04-26 23:51:29,879 - INFO - Test 12: Input=inf Output=False
+2025-04-26 23:51:29,879 - INFO - Test 13: Input=[] Output=False
+2025-04-26 23:51:29,879 - INFO - Test 14: Input={} Output=False
+2025-04-26 23:51:29,879 - INFO - Test 15: Input=set() Output=False
+2025-04-26 23:51:29,879 - INFO - Test 16: Input={'key': 'value'} Output=False
+2025-04-26 23:51:29,879 - INFO - Test 17: Input=[1, 2, 3] Output=False
+2025-04-26 23:51:29,879 - INFO - Test 18: Input=(1, 2, 3) Output=False
+2025-04-26 23:51:29,879 - INFO - Test 19: Input={1, 2, 3} Output=False
+2025-04-26 23:51:29,879 - INFO - Test 20: Input=<function <lambda> at 0x0000022EB0E98FE0> Output=False
+2025-04-26 23:51:29,879 - INFO - Test 21: Input=b'binary' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 22: Input=b'bytes' Output=False
+2025-04-26 23:51:29,879 - INFO - Test 23: Input=True Output=False
+2025-04-26 23:51:29,879 - INFO - Test 24: Input=False Output=False
+2025-04-26 23:51:29,879 - INFO - Test 25: Input=<object object at 0x0000022ED3B14260> Output=False
+2025-04-26 23:51:29,879 - INFO - === Finished fuzzing for isValidKey ===
+
+2025-04-26 23:51:29,879 - INFO - === Starting fuzzing for checkIfValidKeyValue ===
+2025-04-26 23:51:29,879 - INFO - Test 0: Input=None Output=False
+2025-04-26 23:51:29,880 - INFO - Test 1: Input='' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 2: Input='    ' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 3: Input='admin' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 4: Input='password123' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 5: Input='api_key' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 6: Input='!!invalid!!' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 7: Input='super$ecret' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 8: Input='root' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 9: Input=123 Output=False
+2025-04-26 23:51:29,880 - INFO - Test 10: Input=123.45 Output=False
+2025-04-26 23:51:29,880 - INFO - Test 11: Input=nan Output=False
+2025-04-26 23:51:29,880 - INFO - Test 12: Input=inf Output=False
+2025-04-26 23:51:29,880 - INFO - Test 13: Input=[] Output=False
+2025-04-26 23:51:29,880 - INFO - Test 14: Input={} Output=False
+2025-04-26 23:51:29,880 - INFO - Test 15: Input=set() Output=False
+2025-04-26 23:51:29,880 - INFO - Test 16: Input={'key': 'value'} Output=False
+2025-04-26 23:51:29,880 - INFO - Test 17: Input=[1, 2, 3] Output=False
+2025-04-26 23:51:29,880 - INFO - Test 18: Input=(1, 2, 3) Output=False
+2025-04-26 23:51:29,880 - INFO - Test 19: Input={1, 2, 3} Output=False
+2025-04-26 23:51:29,880 - INFO - Test 20: Input=<function <lambda> at 0x0000022EB0E98FE0> Output=False
+2025-04-26 23:51:29,880 - INFO - Test 21: Input=b'binary' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 22: Input=b'bytes' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 23: Input=True Output=False
+2025-04-26 23:51:29,880 - INFO - Test 24: Input=False Output=False
+2025-04-26 23:51:29,880 - INFO - Test 25: Input=<object object at 0x0000022ED3B14260> Output=False
+2025-04-26 23:51:29,880 - INFO - === Finished fuzzing for checkIfValidKeyValue ===
+
+2025-04-26 23:51:29,880 - INFO - === Starting fuzzing for checkIfValidSecret ===
+2025-04-26 23:51:29,880 - INFO - Test 0: Input=None Output=False
+2025-04-26 23:51:29,880 - INFO - Test 1: Input='' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 2: Input='    ' Output=False
+2025-04-26 23:51:29,880 - INFO - Test 3: Input='admin' Output=True
+2025-04-26 23:51:29,880 - INFO - Test 4: Input='password123' Output=True
+2025-04-26 23:51:29,880 - INFO - Test 5: Input='api_key' Output=True
+2025-04-26 23:51:29,880 - INFO - Test 6: Input='!!invalid!!' Output=True
+2025-04-26 23:51:29,880 - INFO - Test 7: Input='super$ecret' Output=True
+2025-04-26 23:51:29,880 - INFO - Test 8: Input='root' Output=True
+2025-04-26 23:51:29,880 - INFO - Test 9: Input=123 Output=False
+2025-04-26 23:51:29,881 - INFO - Test 10: Input=123.45 Output=False
+2025-04-26 23:51:29,881 - INFO - Test 11: Input=nan Output=False
+2025-04-26 23:51:29,881 - INFO - Test 12: Input=inf Output=False
+2025-04-26 23:51:29,881 - INFO - Test 13: Input=[] Output=False
+2025-04-26 23:51:29,881 - INFO - Test 14: Input={} Output=False
+2025-04-26 23:51:29,881 - INFO - Test 15: Input=set() Output=False
+2025-04-26 23:51:29,881 - INFO - Test 16: Input={'key': 'value'} Output=False
+2025-04-26 23:51:29,881 - INFO - Test 17: Input=[1, 2, 3] Output=False
+2025-04-26 23:51:29,881 - INFO - Test 18: Input=(1, 2, 3) Output=False
+2025-04-26 23:51:29,881 - INFO - Test 19: Input={1, 2, 3} Output=False
+2025-04-26 23:51:29,881 - INFO - Test 20: Input=<function <lambda> at 0x0000022EB0E98FE0> Output=False
+2025-04-26 23:51:29,881 - INFO - Test 21: Input=b'binary' Output=False
+2025-04-26 23:51:29,881 - INFO - Test 22: Input=b'bytes' Output=False
+2025-04-26 23:51:29,881 - INFO - Test 23: Input=True Output=False
+2025-04-26 23:51:29,881 - INFO - Test 24: Input=False Output=False
+2025-04-26 23:51:29,881 - INFO - Test 25: Input=<object object at 0x0000022ED3B14260> Output=False
+2025-04-26 23:51:29,881 - INFO - === Finished fuzzing for checkIfValidSecret ===
+
