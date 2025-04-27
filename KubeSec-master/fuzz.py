@@ -6,7 +6,9 @@ import sys
 import os
 
 # Since scanner.py is in the same directory as this script, we can import it directly.
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# This worked locally, trying a different option to get the action working
+# sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 import scanner
 
 # Set up logging for all fuzzed functions
