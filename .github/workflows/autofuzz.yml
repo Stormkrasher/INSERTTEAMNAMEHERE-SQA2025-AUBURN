@@ -20,14 +20,15 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt || true
+        pip install -r KubeSec-master/requirements.txt || true
 
     - name: Run fuzz.py
       run: |
+        cd KubeSec-master
         python fuzz.py
 
     - name: Upload fuzz log
       uses: actions/upload-artifact@v4
       with:
         name: fuzz-logs
-        path: fuzz_log.txt
+        path: KubeSec-master/fuzz_log.txt
