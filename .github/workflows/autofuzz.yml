@@ -21,6 +21,9 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r KubeSec-master/requirements.txt || true
+        pip install "ruamel.yaml<0.18.0"
+        pip install sarif-om
+        pip install jschema-to-python
 
     - name: Run fuzz.py
       run: |
