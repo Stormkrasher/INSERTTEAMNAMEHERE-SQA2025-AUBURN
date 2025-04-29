@@ -1,4 +1,5 @@
 # Worked and tested on by group members
+# Fuzzing script for scanner.py
 
 import logging
 import random
